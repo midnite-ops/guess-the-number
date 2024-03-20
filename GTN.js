@@ -35,7 +35,7 @@ function check(){
             user.value = '';
         }
         else{
-            let restart = prompt(`You won the game, do you want to restart? Yes or No`)
+            let restart = prompt(`You won the game, do you want to restart? Yes or No`).toLowerCase()
             if(restart == 'yes'){
                 start();
             }
