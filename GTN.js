@@ -27,10 +27,10 @@ function check(){
         else if(userGuess > randomNumber){
             count--;
             if(count == 1  ||  count == 0){
-                alert(`You guessed too low, you have ${count} chance remaining.`);
+                alert(`You guessed too high, you have ${count} chance remaining.`);
             }
             else{
-                alert(`You guessed too low, you have ${count} chances remaining.`);
+                alert(`You guessed too high, you have ${count} chances remaining.`);
             }
             user.value = '';
         }
